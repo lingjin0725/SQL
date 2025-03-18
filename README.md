@@ -1,4 +1,3 @@
 # Payroll Management System
-- Designed and implemented a relational database system for employee salary management in PostgreSQL.
-- Implemented constraints, stored procedures, and triggers to automate payroll processing and ensure data integrity.
-- Designed role-based access control and reports for salary distribution and compensation analysis.
+The Payroll Management System is designed to automate payroll processing, ensuring accuracy in salary calculations, tax deductions, and benefits allocations. This system utilizes PostgreSQL for database management and Excel for reporting.![image](https://github.com/user-attachments/assets/1ae137be-8031-41f1-bc03-39cbc3823e39)
+
