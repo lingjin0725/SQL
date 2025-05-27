@@ -1,33 +1,71 @@
 # University Enrollment Database Using SQL
 
-This project was developed as part of the DATA 324: Data Repository Systems course. It simulates a university's academic record system using a relational database built with SQL.
+This repository contains a full-featured **Student Enrollment Management System** implemented using SQL, designed to simulate a university-level database that manages students, courses, enrollments, academic tracks, and prerequisites.
 
-## 📁 Project Overview
+This project was completed as part of the **Data Repository Systems** course and demonstrates relational schema design, normalization, integrity constraints, and SQL-based academic analytics.
 
-The database includes multiple normalized tables that model students, courses, enrollments, prerequisites, and academic tracks. SQL queries were written to answer complex questions about student progress and course requirements.
+## ER Diagram
 
-## 🛠️ Features
+![ER Diagram](ER%20Diagram.png)
 
-- Created and normalized schema (1NF to 3NF) for academic data.
-- Implemented tables with constraints and foreign keys to ensure referential integrity.
-- Wrote advanced SQL queries including:
-  - Multi-table joins
-  - Subqueries and nested SELECTs
-  - Aggregations and GROUP BY logic
-  - Filtering and sorting for student performance analysis
+The ER diagram illustrates the complete structure of the database, including tables, primary and foreign keys, and relationships between entities.
 
-## 📂 Files
+## Project Features
 
-- `D324_HW4_LingJin.sql` — SQL queries for creating and querying the database
-- `hw4DB.zip` — SQL scripts for table creation and sample data
-- `Homework4-SQLQueries_FINAL.pdf` — Project instructions
+- Fully normalized schema (3NF)
+- Referential integrity using primary and foreign keys
+- SQL scripts to define schema and populate test data
+- Advanced queries to check graduation eligibility and prerequisites
+- Course demand analytics and student performance summaries
+- Views for academic advisor dashboards
 
-## 💡 Learning Outcomes
+## Schema Overview
 
-- Hands-on experience with database normalization and SQL query logic
-- Practice designing relational schemas and executing real-world queries
-- Understanding of data integrity and constraint enforcement in SQL
+- `student`: Contains student ID, name, and track information
+- `course`: Lists course metadata (ID, credits, classroom, etc.)
+- `enroll`: Connects students to their course enrollments
+- `tracks`: Represents academic majors and subtracks
+- `trackReq`: Specifies required courses per track
+- `prereq`: Defines course prerequisite relationships
 
----
+## File Descriptions
 
-📌 Built with PostgreSQL-compatible SQL for academic purposes.
+| File | Description |
+|------|-------------|
+| `Student_Enrollment_Management_SQL_Project.sql` | All SQL code: schema creation, inserts, and queries |
+| `ER Diagram.png` | Entity Relationship Diagram |
+| `projectDB.zip` | Zipped version of the full database project |
+| `README.md` | Project documentation for GitHub |
+
+## SQL Concepts Used
+
+- Relational schema design
+- Data normalization (up to 3NF)
+- Table creation and integrity constraints
+- Inner/outer joins, group by, subqueries, views
+- Conditional logic using SQL functions
+
+## Skills Demonstrated
+
+- SQL development and optimization
+- Database modeling from real-world use cases
+- Translating academic policies into data logic
+- Educational data analytics
+- ER diagram interpretation
+
+## Getting Started
+
+1. Clone or download this repository.
+2. Open the `.sql` file in your preferred SQL database (PostgreSQL, MySQL, SQLite).
+3. Run the schema definitions and data insertions.
+4. Execute the sample queries or design your own based on the structure.
+
+## Real-World Applications
+
+This system models common components found in:
+
+- University Student Information Systems (SIS)
+- Course registration platforms
+- LMS or EdTech platforms
+- HR training & compliance systems
+
