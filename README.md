@@ -1,8 +1,8 @@
-# University Enrollment Database Using SQL
+# Student Enrollment Management System Using SQL
 
-This repository contains a full-featured **Student Enrollment Management System** implemented using SQL, designed to simulate a university-level database that manages students, courses, enrollments, academic tracks, and prerequisites.
+This repository contains a full-featured Student Enrollment Management System implemented using SQL, designed to simulate a university-level database that manages students, courses, enrollments, academic tracks, and prerequisites.
 
-This project was completed as part of the **Data Repository Systems** course and demonstrates relational schema design, normalization, integrity constraints, and SQL-based academic analytics.
+This project was completed as part of the Data Repository Systems course and demonstrates relational schema design, normalization, integrity constraints, and SQL-based academic analytics.
 
 ## ER Diagram
 
